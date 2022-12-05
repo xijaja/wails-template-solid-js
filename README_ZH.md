@@ -2,14 +2,14 @@
 <a href="https://github.com/xijaja/wails-template-solid-js">English</a> | 
 <strong>中文</strong>
 </p>
-<h1 align="center">wails-template-solid-ts</h1>
+<h1 align="center">wails-template-solid-js</h1>
 
 <p align="center">Wails 的模版，开箱即用的 Vite, Solid, JavaScript 并支持热重载</p>
 
 ## 使用模版
 
 ```bash
-wails init -n my-wails-solid -t https://github.com/xijaja/wails-template-solid-ts
+wails init -n my-wails-solid -t https://github.com/xijaja/wails-template-solid-js
 ```
 
 ## 启动调试
@@ -41,7 +41,7 @@ npx tailwindcss init tailwind.config.cjs -p
 
 最后，在 `frontend/src/index.jsx` 中引入：
 
-```tsx
+```jsx
 import "./tailwind.css";
 ```
 
